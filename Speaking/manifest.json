@@ -1,44 +1,22 @@
-
 {
-
   "manifest_version": 2,
-
-
-
-  "name": "Speak",
-
-  "description": "Extension to speak selected text",
-
+  "name": "Read Out Loud",
+  "description": "Context menu option for user to select word(s) they want read out loud.",
   "version": "1.0",
-
+  
   "icons": {
-
     "128": "icon128.png",
-
     "48": "icon48.png",
-
     "16": "icon16.png"
-
   },
-
-
 
   "background": {
-
     "scripts": ["event.js"],
-
     "persistent": false
-
   },
-
-
-
+  
   "permissions": [     
-
-          "contextMenus",
-
-          "tts"
-
-        ]
-
+       "contextMenus",
+       "tts"
+   ]
 }
