@@ -1,43 +1,23 @@
 {
-
   "manifest_version": 2,
-
-
-
-  "name": "Wikit",
-
-  "description": "Search Wikipedia on the go!",
-
+  "name": "Instant-Wiki",
+  "description": "Give users the option to instantly search wikipedia in their 
+  context menu.",
   "version": "1.0",
 
   "icons": {
-
     "128": "icon128.png",
-
     "48": "icon48.png",
-
     "16": "icon16.png"
-
   },
-
-
 
   "background": {
-
     "scripts": ["event.js"],
-
     "persistent": false
-
   },
 
-
-
   "permissions": [  
-
-          "tabs",      
-
-          "contextMenus"
-
-        ]
-
+    "tabs",      
+    "contextMenus"
+   ]
 }
